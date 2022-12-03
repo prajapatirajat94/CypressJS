@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+///<reference types="Cypress" />
 //under describe we are going to write test cases
 describe('testing diff view ports',()=>{
 
@@ -16,6 +16,7 @@ console.log('Running my tests')
 
     beforeEach(()=>{
         cy.visit('https://www.google.com/')
+        
     })
    //3.
    it('open in macbook -13',()=>{
@@ -23,6 +24,7 @@ console.log('Running my tests')
      //take screenshot
      cy.screenshot()
      cy.wait(200) 
+     
 
    })
 
